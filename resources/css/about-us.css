@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.about-us-achievements {
+.container-our-services {
     background-color: #f3f5f3;
 }
 
@@ -31,4 +31,5 @@
 
 .about-us-image img:hover {
     transform: scale(0.85);
+    transition: transform 0.5s;
 }

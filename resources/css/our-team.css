@@ -1,0 +1,18 @@
+.container-our-team {
+    padding: 100px  400px;
+    text-align: center;
+}
+
+.container-our-team img:hover {
+    background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5));
+}
+
+.team-member {
+    background-color: #000000;
+}
+
+.team-member:hover {
+    opacity: 0.5;
+}
