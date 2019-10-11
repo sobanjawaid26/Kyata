@@ -16,3 +16,8 @@
 .team-member:hover {
     opacity: 0.5;
 }
+
+.container-our-team h3 {
+    font-weight: bold;
+    font-size: 200%;
+}

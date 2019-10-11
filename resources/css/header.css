@@ -45,7 +45,8 @@ header {
 .sec-nav {
     margin-top: 25px;
     list-style: none;
-    float: right;
+    display: inline;
+    z-index: 1;
 }
 
 .sec-nav li {
@@ -61,24 +62,53 @@ header {
     color: red;
 }
 
+.nav {
+    width: 100%;
+}
+
+.nav main-nav {
+    float: left;
+}
+
+.nav .sec-nav {
+    float: right;
+    z-index: 2;
+}
+
+.nav .sec-nav li {
+    height: 20px;
+    width: 20px;
+    z-index: 2;
+    background-color: white;
+    display: inline-block;
+    font-size: 120%;
+    margin-right: 20px;
+
+    /* secrets to align text and icons */
+    line-height:120%;
+    vertical-align: middle;
+}
 /****************************************    header box     ***************************************/
 
-.container {
+.container-header {
     position: absolute;
     width: 1140px;
     top: 50%;
-    left: 70%;
+     left: 50%; 
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .header-box {
     display: inline block;
     color: white;
+    text-align: center;
 }
 
 .header-box-heading {
-    font-size: 250%;
+    font-size: 400%;
     display: inline-block;
+    text-align: center;
 }
 
 .header-box-para {
@@ -96,5 +126,6 @@ header {
     color: white;
     display: inline-block;
     text-align: center;
-    margin-left: 13%;
+    /* margin-left: 13%; */
 }
+
