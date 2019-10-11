@@ -36,3 +36,11 @@
     font-weight: bold;
     font-size: 200%;
 }
+
+.service-description {
+    color:grey;
+}
+
+.container-our-services p:last-child {
+    text-align: left;
+}

@@ -12,7 +12,8 @@ header {
     font-size: 150%;
     padding: 20px;
     display: inline;
-    color: white
+    color: white;
+    text-align: center;
 }
 
 /***********************************       Main Navigation       ***********************************/
@@ -45,13 +46,21 @@ header {
 .sec-nav {
     margin-top: 25px;
     list-style: none;
-    display: inline;
+    display: flex;
     z-index: 1;
+    /* background-color: #fff; */
+    float: right;
 }
 
 .sec-nav li {
    color: white;
+    margin-right: 20px;
 }
+
+.sec-nav ul {
+    
+}
+
 .sec-nav li a:link,
 .sec-nav li a:visited
 {
@@ -129,3 +138,19 @@ header {
     /* margin-left: 13%; */
 }
 
+header .row {
+    box-shadow: 0 0.5px 0.5px grey;
+}
+
+/**************************          arrows                  **************************/
+
+.left-arrow {
+    color: white;
+}
+
+.right-arrow {
+    color: white;
+    position: absolute;
+    top:40%;
+    left:100%;
+}
