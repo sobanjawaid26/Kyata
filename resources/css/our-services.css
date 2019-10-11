@@ -18,14 +18,13 @@
 
 .container-our-services a {
     text-decoration: none;
-    border-radius: 20px;
-    margin: auto;
+    /* border-radius: 20px; */
+    /* margin: auto; */
     color: black;
     display: inline-block;
     text-align: center;
-    margin-left: 13%;
     font-weight: 900;
-
+    /* padding-right: 80%; */
 }
 
 .container-our-services a:hover {
@@ -43,4 +42,24 @@
 
 .container-our-services p:last-child {
     text-align: left;
+}
+
+.container-our-services ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.container-our-services li{
+    display: inline-block;
+}
+
+.container-our-services i {
+    color: #ee2100;
+}
+.services-content {
+    float: right;
+}
+
+.services-icon {
+
 }

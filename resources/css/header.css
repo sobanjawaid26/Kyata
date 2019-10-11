@@ -146,11 +146,20 @@ header .row {
 
 .left-arrow {
     color: white;
-}
+    position: absolute;
+    top:40%;
+    left:-28%;}
 
 .right-arrow {
     color: white;
     position: absolute;
     top:40%;
-    left:100%;
+    left:127%;
+}
+
+.background-scroll {
+    color: white;
+    position: absolute;
+    top:170%;
+    left:50%;
 }
