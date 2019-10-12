@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.works-nav {
+
+}
+
+.works-nav ul {
+    list-style: none;
+
+}
+
+.works-nav li {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.works-nav li a:link,
+.works-nav li a:visited {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 80%;
+}
+
+.works-nav li a:hover,
+.works-nav li a:active {
+    text-decoration: none;
+    color: grey;
+}
+
+
+.works-showcase {
+    list-style:none;
+    width: 100%;
+    padding:0;
+    margin: 0;
+}
+
+.works-showcase li {
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.works-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+.works-photo img {
+    opacity: 1;
+    width: 100%;
+    margin: 0;
+    height: auto;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.works-photo img:hover {
+    /* transform: scale(1.15); */
+    opacity: 0.7;
+}
+
+.works {
+    padding: 0;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+ 
+.contact-us {
+    padding: 0;
+    margin:0;
+    background-color: #dd1e00;
+    height: 170px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-us h2 {
+    color: white;
+    margin: 4%;
+}
+
+.contact-us a {
+    margin :10%;
+}
+.btn:link,
+.btn:visited,
+.form-input[type=submit]
+{
+    display: inline-block;
+    padding: 20px 50px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.5s;
+}
+.btn-full:link,
+.btn-full:visited,
+.form-input[type=submit]
+{
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+}
+
+.btn-full:active,
+.btn-full:hover
+{
+    background-color: white;
+}
