@@ -1,3 +1,36 @@
 .section-pricing-table {
     background-color: #f3f5f3;
 }
+
+.pricing-table-p {
+    text-align: center;
+    color: red;
+    margin-top: 80px;
+}
+
+.pricing-table-h3 {
+    text-align: center;
+    font-size: 180%;
+}
+
+.container-plan-specifications {
+    color: grey;
+}
+
+.container-plan-specifications ul {
+    list-style: none;
+}
+
+.specs-check {
+    padding-right: 10px;
+    color: red;
+}
+
+.span-1-of-5 {
+    background-color: white;
+}
+
+.span-1-of-5 {
+    background-color: white;
+
+}
