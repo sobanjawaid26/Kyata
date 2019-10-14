@@ -10,14 +10,32 @@
 }
 
 .team-member {
-    background-color: #000000;
 }
 
-.team-member:hover {
+/* .team-member:hover {
     opacity: 0.5;
-}
+} */
 
 .container-our-team h3 {
     font-weight: bold;
     font-size: 200%;
 }
+
+.img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+  }

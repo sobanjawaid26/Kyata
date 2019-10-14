@@ -1,0 +1,47 @@
+.section-contact-us {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form {
+    position: relative;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+select,
+textarea {
+    width: 93%;
+    padding: 15px;
+    border-radius: 3px;
+    margin: 10px;
+    border: 1px solid #f1f2f4;
+    color: grey;
+    background-color: #f1f2f4;
+}
+
+select {
+    width: 100%;
+}
+
+.form-submit {
+    position: absolute;
+    left: 45%;
+    width: 9%;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 40px;
+    background-color:  #db1b00;
+    margin: auto;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 30px;
+    border: 1px solid red;
+}
+
+.row img {
+    margin-top: 180px;
+}
