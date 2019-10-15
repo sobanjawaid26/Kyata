@@ -38,3 +38,7 @@
 .blog img:hover {
     opacity: 0.7;
 }
+
+.blogs {
+    margin-bottom: 100px;
+}

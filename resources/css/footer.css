@@ -74,7 +74,7 @@
 .footer-last li {
     display: inline-block;
     float: right;
-    padding: 0 30px;
+    padding: 0 15px;
 }
 
 .help-centre ul,
@@ -99,4 +99,15 @@
 
 .instagram-widget {
     padding: 10px;
+}
+
+.subscribe-now input {
+    height: 48px;
+    background-color: #f44336;
+    position: relative;
+    top: 9px;
+    border: 1px solid #f44336;
+    border-radius: 0 50px 50px 0;
+    font-weight: bold;
+    color: white;
 }

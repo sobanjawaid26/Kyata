@@ -4,11 +4,13 @@
 .testimonials-p {
     text-align: center;
     color: red;
+    margin-top: 100px;
 }
 
 .testimonials-h3 {
     text-align: center;
     font-size: 180%;
+    margin-bottom: 100px;
 }
 
 .user-testimonial-profile {

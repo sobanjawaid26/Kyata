@@ -11,6 +11,7 @@
 .pricing-table-h3 {
     text-align: center;
     font-size: 180%;
+    margin-bottom: 100px;
 }
 
 .container-plan-specifications {
@@ -26,11 +27,103 @@
     color: red;
 }
 
-.span-1-of-5 {
+.plan,
+.features {
+    background-color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 350px;
+}
+.plan p,
+.features p {
+    padding: 10px;
+}
+
+.plan ul,
+.features ul {
+    margin-top: 0;
+}
+
+.features i {
+    padding: 15px;
+}
+
+.plan.pro {
+    background-color: #e71818;
+}
+
+.plan-name,
+.plan-cost,
+.plan-type,
+.plan-payment,
+.plan-button {
+    text-align: center;
+}
+
+.lite {width: 33%; background-color: #f44336;}
+.pro {width: 66%; background-color: #f44336;}
+.expertise {width: 100%; background-color: #f44336;}
+
+.rectangle {
+    width: 20px;
+    height: 35px;
     background-color: white;
 }
 
-.span-1-of-5 {
-    background-color: white;
+.angled-square {
+    width: 14.14px;
+    height: 14.14px;
+    transform:rotate(45deg) translate(-2px, -7px);
+    background-color: #e71818;
+}
 
+.ribbon {
+    transform: translate(80%,0);
+}
+
+.plan-name.pro-plan {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.yearly a{
+    float: left;
+    color: #e71818;
+    border-radius: 0 50px 50px 0;
+
+}
+
+.monthly a{
+    float: right;
+    background-color: #e71818;
+    color: white;
+    border-radius: 50px 0 0 50px;
+
+}
+
+.yearly a:link,
+.yearly a:visited,
+.monthly a:link, 
+.monthly a:visited {
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #e71818;
+
+}
+
+.yearly {
+    margin-left: 0 !important;
+}
+.col.yearly {
+	display: block;
+	float: left;
+}
+
+.container-plan.lite {
+    height: 500px;
+    margin-top: 40px;
+}
+
+.features {
+    margin-top: 0;
 }
