@@ -364,82 +364,28 @@
         margin: 0;
         padding: 0;
     }
-    .head-part{
-        width: 100vw;
-
-    }
-    .main-nav li {
-        padding: 0;
-        margin: 0;
-        font-size: 3%;
-    }
-
-    .main-nav {
-        display: none;
-    }
-
-    .sec-nav.fa-bars {
-        display:none;
-    }
-
-    .header-box-heading {
-        font-size: 120%;
-    }
-
-    .header-box-para {
-        font-size: 80%;
-        
-    }
-
-   .row {
-       width: 100%;
-   }
-    .header-box-heading {
-        font-size: 200%;
-    }
-
-    .header-box-para {
-        font-size: 80%;
-    } 
-
-   .row {
-       width: 100%;
-   }
-    .header-box-heading {
-        font-size: 200%;
-    }
-
-    .header-box-para {
-        font-size: 80%;
-    } 
-
-    .row {
-        width: 100%;
-    }
-     .header-box-heading {
-         font-size: 200%;
-     }
- 
-     .header-box-para {
-         font-size: 80%;
-     } 
- 
-   }
-   
-        
-
-   .row {
-       width: 100%;
-   }
-    .header-box-heading {
-        font-size: 200%;
-    }
-
-    .header-box-para {
-        font-size: 80%;
-    }  
-
     
+    .sec-nav .fa-shopping-cart,
+    .sec-nav .fa-search {
+        display: none;
+    } 
+
+    .sec-nav .fa-bars {
+        float: right;
+        width: 16px;
+        margin-bottom: 1%;
+    }
+
+    .header-box-para {
+        font-size: 80%;
+        margin-top: 3%;
+    }
+
+    .learn-more-link {
+        width: 10%;
+        padding: 1%;
+        margin-top: 3%;
+    }
 
     /*************************************************                                    About Us                                        *******************************************/
 
@@ -449,6 +395,7 @@
 
     .about-us-top {
         text-align: center;
+        margin: 4%;
     }
 
     .container-about-us h3 {
@@ -502,6 +449,21 @@
         float: left;
     } 
 
+    .service-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3%;
+    }
+
+    .service-description {
+        padding: 4% 0;
+    }
+
+    .services-icon {
+        margin: 3%;
+    }
     /*************************************************                                    Our Team                                        *******************************************/
 
       .container-our-team img{
@@ -549,3 +511,191 @@
     } 
 
     /*************************************************                                     testimonials                                        *******************************************/
+    .stars {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4%;
+        position: relative;
+        left: 48%;
+    }
+
+    /*************************************************                                     pricing table                                        *******************************************/
+
+    .monthly,
+    .yearly {
+        display: none !important;
+    }
+
+    .plan-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .plan-button a:link {
+        font-size: 80% !important;
+        padding: 3% !important;
+        position: relative;
+        left: 1%;
+    }
+
+    .container-plan-specifications ul {
+        padding: 1%;
+    }
+
+
+    /* .pricing-table-h3 {
+        font-size: 130%;
+        margin: 10% 0;
+    }
+
+    .monthly,
+    .yearly {
+        display: none !important;
+    }
+
+    .container-plan {
+        margin-top: 14%;
+    }
+
+    .plan-button a:link {
+        font-size: 80% !important;
+        padding: 3% !important;
+        position: relative;
+        left: 1%;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    .plan-bars {
+        display: none;
+    }
+
+    .features {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pricing-table-p {
+        font-size: 80%;
+    }
+    
+    .pricing-table-h3 {
+        font-size: 80%;
+    }
+    
+    .skill-container {
+        width: 40%;
+        position: relative;
+        left: 33%;
+    }
+
+    .container-plan p{
+        font-size: 60%;
+    }
+
+    .plan-button {
+        width: 16rem;
+        height: 10rem;
+        font-size: 50%;
+        position: relative;
+        left: 20%;
+    }
+
+    .container-plan-specifications li {
+        padding: 3%;
+    }
+ */
+
+
+    /*************************************************                                     blogs                                        *******************************************/
+
+    .blog img {
+        width: 100vw;
+    }
+
+    .blog-author,
+    .blog-link {
+        text-align: center !important;
+    }
+
+    .blog-author,
+    .blog-link,
+    .blog-body {
+        padding: 5% 3%;
+    }
+
+    /*************************************************                                     twitter-links                                        *******************************************/
+
+    .twitter-icon {
+        position: relative;
+        top: 200%;
+        right: 0%;
+    }
+
+    .twitter-links-text {
+        font-size: 100%;
+    }
+
+    .twitter-links-author {
+        text-align: center;
+        display: felx;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-submit {
+        width: 30%;
+        margin: 0;
+    }
+
+    .contact-us-image {
+        margin-top: 10%;
+    }
+
+/*************************************************                                     footer                                        *******************************************/
+
+.newsletter-email input,
+.subscribe-now input {
+    width: 70%;
+    margin-left: 0;
+}
+
+
+.footer-first {
+    margin: 0;
+    width: 80%;
+}
+
+.footer-first p {
+    font-size: 90%;
+}
+
+.footer-mid img {
+   display: inline-block;
+   width: 20%;
+   height: auto;
+   text-align: center;
+
+}
+
+.popular-post{
+    position: relative;
+}
+.column-head {
+position: absolute;
+left: 100px;
+}
+
+.popular-post-child {
+    float: right;
+}
+
+
+
+
+
+}

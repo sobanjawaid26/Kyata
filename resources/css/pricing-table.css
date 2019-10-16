@@ -127,3 +127,39 @@
 .features {
     margin-top: 0;
 }
+
+.plan-name {
+    color: #e71818;
+}
+
+.plan-cost {
+    font-size: 150%;
+}
+
+.plan-type,
+.plan-payment {
+    color: grey;
+}
+.pro p {
+    color: white;
+}
+
+.plan {
+    background-color: white;
+}
+
+/**************************************                                                    NEW PRICING TABLE CSS                                                **************************************/
+
+.container-plan-specifications {
+    background-color: white;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.container-plan-specifications li {
+    padding: 3%;
+}
+
+.pricing-table-p {
+    margin-top: 10%;
+}
